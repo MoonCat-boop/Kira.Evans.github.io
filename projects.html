@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+    Name: Kira Evans 
+    Date: 09-25-2024
+    Section: 331
+    Assignment1: A Portfolio website
+    Page: projects
+    -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A portfolio website about Kira Evans">
+    <meta name="keywords" content="portfolio Kira Evans projects">
+    <meta name="author" content="Kira Evans">
+    <!-- links for style sheet and logos for github and instagram -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css">
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>Projects</title>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav> 
+        </div>
+    </header>
+    <h1 class="projects-id">Projects</h1>
+    <div class="projects-container">
+        <button class="prev" onclick="changeSlide(-1)">Previous</button>
+        <div class="projects">
+            <div class="project-slide">
+                <h2>Object-Oriented Programming Java Assignment 1</h2>
+                <p>Developed a program that keeps track of a patient's health data and calculates min and max heart rate, target heart rates, and BMI.</p>
+                <img src="images/JavaAssignment.png" alt="Screenshot of Java Assignment">
+                <p>Oct 12th, 2024</p>
+                <p>Technologies used:</p>
+                <ul>
+                    <li>Java</li>
+                    <li>Eclipse IDE</li>
+                    <li>Used inheritance, superclass, and subclass</li>
+                    <li>Created a UML diagram using UMLet</li>
+                </ul>
+            </div>
+            
+            <div class="project-slide">
+                <h2>Database Lab</h2>
+                <p>Downloaded and installed MongoDB. Converted an XML document to JSON. Then downloaded the command tools for MongoDB and imported the converted JSON file to the database using the command prompt.</p>
+                <img src="images/Database.png" alt="Screenshot of Database Lab">
+                <p>Nov 3rd, 2024</p>
+                <p>Technologies used:</p>
+                <ul>
+                    <li>Windows Command Prompt</li>
+                    <li>MongoDB</li>
+                    <li>MongoDB Command Prompt</li>
+                    <li>XML</li>
+                    <li>JSON</li>
+                </ul>
+            </div>
+            
+            <div class="project-slide">
+                <h2>Web Programming Payment Form</h2>
+                <p>Developed a responsive payment form using HTML and CSS.</p>
+                <img src="images/WebForm.png" alt="Screenshot of Payment Form">
+                <p>Sept 20th, 2024</p>
+                <p>Technologies used:</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            
+            <div class="project-slide">
+                <h2>Data Analysis Dashboard in Excel</h2>
+                <p>Developed an interactive dashboard in Excel that analyzes the bacteria data for the beaches in Ottawa. Imported data from an external Excel sheet to create various charts and graphs. It breaks down closures and reasons for them, and displays different graphs for different data sets, each of which can be filtered to show individual beaches.</p>
+                <img src="images/ExcelDash.png" alt="Screenshot of Excel Dashboard">
+                <p>Aug 4th, 2024</p>
+                <p>Technologies used:</p>
+                <ul>
+                    <li>Excel</li>
+                    <li>Data Analysis</li>
+                    <li>Visualization</li>
+                </ul>
+            </div>
+        </div>
+        <button class="next" onclick="changeSlide(1)">Next</button>
+    </div>
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/MoonCat-boop" target="_blank">
+                <i class="fa fa-github" style="font-size:48px;color:#463635"></i>
+            </a>
+            <a href="https://www.instagram.com/yourusername" target="_blank">
+                <i class="fa fa-instagram" style="font-size:48px;color:#463635"></i>
+            </a>  
+        </div>
+        <small>&copy; 2024 Kira Evans. All rights reserved.</small>
+    </footer>
+    <script src="js/javaScriptForSite.js"></script>
+</body>
+</html>
